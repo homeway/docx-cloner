@@ -56,21 +56,23 @@ module Docx
     class DocxReader
       def initialize(file)
         @zip = Zip::ZipFile.open(file)
+        @paragraph = []
         @replace = {}
         _xml = @zip.read("word/document.xml")
         doc = Nokogiri::XML(_xml)
         wp_set = doc.xpath(".//w:p")
         puts "#{wp_set.size}'s wp"
-        wp_set.each do | p |
-          s = ""
-          p.xpath(".//w:t").each do | t |
-            #s << t.content
-            s << t.to_html
+        wp_set.each do |p|
+          h = {text_content: '', text_run: []}
+          p.xpath(".//w:t").each do |t|
+            h[:text_content] << t.content
+            h[:text_run] << t
           end
-          puts s
+          @paragraph << h
         end
-
+        puts @paragraph
       end
+
       def release
         @zip.close
       end

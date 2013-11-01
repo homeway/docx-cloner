@@ -1,0 +1,52 @@
+        <w:p w14:paraId="4E9418BB" w14:textId="23E8C963" w:rsidR="00342A6D" w:rsidRDefault="00342A6D" w:rsidP="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>这是一个单词</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t xml:space="preserve"> </w:t>
+          </w:r>
+          <w:r w:rsidR="000F595B">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>{</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>n</w:t>
+          </w:r>
+          <w:r w:rsidR="000F595B">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>ame}</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>测试</w:t>
+          </w:r>
+        </w:p>

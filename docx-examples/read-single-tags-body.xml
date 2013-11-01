@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mo="http://schemas.microsoft.com/office/mac/office/2008/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mv="urn:schemas-microsoft-com:mac:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+  <w:body>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="CoverTable"/>
+        <w:tblW w:w="10800" w:type="dxa"/>
+        <w:tblLook w:val="04E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="10800"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00A20C5E" w14:paraId="24DF3D97" w14:textId="77777777">
+        <w:trPr>
+          <w:cnfStyle w:val="100000000000" w:firstRow="1" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+          <w:trHeight w:hRule="exact" w:val="288"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10800" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="59441B7C" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47"/>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00A20C5E" w14:paraId="7C10138A" w14:textId="77777777">
+        <w:trPr>
+          <w:cnfStyle w:val="000000100000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="1" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+          <w:trHeight w:hRule="exact" w:val="144"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10800" w:type="dxa"/>
+          </w:tcPr>
+          <w:p w14:paraId="234A7FA8" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47"/>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00A20C5E" w14:paraId="5FC0436B" w14:textId="77777777">
+        <w:trPr>
+          <w:cnfStyle w:val="000000010000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="1" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+          <w:trHeight w:val="10080"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10800" w:type="dxa"/>
+          </w:tcPr>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblStyle w:val="CoverCenter"/>
+              <w:tblW w:w="5000" w:type="pct"/>
+              <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="4499"/>
+              <w:gridCol w:w="6301"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="2D87CEC1" w14:textId="77777777">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="2083" w:type="pct"/>
+                  <w:tcMar>
+                    <w:top w:w="360" w:type="dxa"/>
+                    <w:right w:w="360" w:type="dxa"/>
+                  </w:tcMar>
+                </w:tcPr>
+                <w:p w14:paraId="0FCA883A" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00E242DB">
+                  <w:pPr>
+                    <w:pStyle w:val="Header-Left"/>
+                    <w:rPr>
+                      <w:rFonts w:hint="eastAsia"/>
+                      <w:lang w:eastAsia="zh-CN"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:rFonts w:hint="eastAsia"/>
+                      <w:lang w:eastAsia="zh-CN"/>
+                    </w:rPr>
+                    <w:t>Docx</w:t>
+                  </w:r>
+                  <w:r>
+                    <w:rPr>
+                      <w:rFonts w:hint="eastAsia"/>
+                      <w:lang w:eastAsia="zh-CN"/>
+                    </w:rPr>
+                    <w:t>测试文档</w:t>
+                  </w:r>
+                </w:p>
+                <w:p w14:paraId="67D8CC8B" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00E242DB" w:rsidP="00E242DB">
+                  <w:pPr>
+                    <w:pStyle w:val="Header-Details"/>
+                    <w:rPr>
+                      <w:lang w:eastAsia="zh-CN"/>
+                    </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:rFonts w:hint="eastAsia"/>
+                      <w:lang w:eastAsia="zh-CN"/>
+                    </w:rPr>
+                    <w:t>homeway.xue@gmail.com</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="2917" w:type="pct"/>
+                </w:tcPr>
+                <w:tbl>
+                  <w:tblPr>
+                    <w:tblW w:w="0" w:type="auto"/>
+                    <w:jc w:val="center"/>
+                    <w:tblCellMar>
+                      <w:left w:w="0" w:type="dxa"/>
+                      <w:right w:w="0" w:type="dxa"/>
+                    </w:tblCellMar>
+                    <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+                  </w:tblPr>
+                  <w:tblGrid>
+                    <w:gridCol w:w="5224"/>
+                  </w:tblGrid>
+                  <w:tr w:rsidR="00A20C5E" w14:paraId="468482CC" w14:textId="77777777">
+                    <w:trPr>
+                      <w:trHeight w:hRule="exact" w:val="8640"/>
+                      <w:jc w:val="center"/>
+                    </w:trPr>
+                    <w:tc>
+                      <w:tcPr>
+                        <w:tcW w:w="0" w:type="auto"/>
+                        <w:vAlign w:val="bottom"/>
+                      </w:tcPr>
+                      <w:p w14:paraId="032BE889" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                        <w:pPr>
+                          <w:pStyle w:val="Picture"/>
+                        </w:pPr>
+                        <w:r>
+                          <w:rPr>
+                            <w:lang w:eastAsia="zh-CN"/>
+                          </w:rPr>
+                          <w:drawing>
+                            <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="3DAE7352" wp14:editId="688ADE56">
+                              <wp:extent cx="3349003" cy="5440680"/>
+                              <wp:effectExtent l="19050" t="19050" r="22847" b="26670"/>
+                              <wp:docPr id="17" name="Placeholder" descr="C:\Users\Steph\Pictures\Microsoft Clip Organizer\j0403398.jpg"/>
+                              <wp:cNvGraphicFramePr>
+                                <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+                              </wp:cNvGraphicFramePr>
+                              <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                                <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                  <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                    <pic:nvPicPr>
+                                      <pic:cNvPr id="5" name="Picture 4" descr="C:\Users\Steph\Pictures\Microsoft Clip Organizer\j0403398.jpg"/>
+                                      <pic:cNvPicPr>
+                                        <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                                      </pic:cNvPicPr>
+                                    </pic:nvPicPr>
+                                    <pic:blipFill>
+                                      <a:blip r:embed="rId8"/>
+                                      <a:srcRect l="3514" r="3514"/>
+                                      <a:stretch>
+                                        <a:fillRect/>
+                                      </a:stretch>
+                                    </pic:blipFill>
+                                    <pic:spPr bwMode="auto">
+                                      <a:xfrm>
+                                        <a:off x="0" y="0"/>
+                                        <a:ext cx="3349003" cy="5440680"/>
+                                      </a:xfrm>
+                                      <a:prstGeom prst="rect">
+                                        <a:avLst/>
+                                      </a:prstGeom>
+                                      <a:noFill/>
+                                      <a:ln w="12700">
+                                        <a:solidFill>
+                                          <a:schemeClr val="tx1">
+                                            <a:lumMod val="75000"/>
+                                            <a:lumOff val="25000"/>
+                                          </a:schemeClr>
+                                        </a:solidFill>
+                                        <a:miter lim="800000"/>
+                                        <a:headEnd/>
+                                        <a:tailEnd/>
+                                      </a:ln>
+                                      <a:effectLst>
+                                        <a:innerShdw blurRad="63500" dir="13500000">
+                                          <a:prstClr val="black">
+                                            <a:alpha val="30000"/>
+                                          </a:prstClr>
+                                        </a:innerShdw>
+                                      </a:effectLst>
+                                    </pic:spPr>
+                                  </pic:pic>
+                                </a:graphicData>
+                              </a:graphic>
+                            </wp:inline>
+                          </w:drawing>
+                        </w:r>
+                      </w:p>
+                    </w:tc>
+                  </w:tr>
+                  <w:tr w:rsidR="00A20C5E" w14:paraId="1A1FB800" w14:textId="77777777">
+                    <w:trPr>
+                      <w:trHeight w:hRule="exact" w:val="288"/>
+                      <w:jc w:val="center"/>
+                    </w:trPr>
+                    <w:tc>
+                      <w:tcPr>
+                        <w:tcW w:w="0" w:type="auto"/>
+                        <w:shd w:val="clear" w:color="auto" w:fill="8FA5BA" w:themeFill="background2"/>
+                      </w:tcPr>
+                      <w:p w14:paraId="649A9A56" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47">
+                        <w:pPr>
+                          <w:rPr>
+                            <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                          </w:rPr>
+                        </w:pPr>
+                      </w:p>
+                    </w:tc>
+                  </w:tr>
+                  <w:tr w:rsidR="00A20C5E" w14:paraId="095DBE5B" w14:textId="77777777">
+                    <w:trPr>
+                      <w:trHeight w:hRule="exact" w:val="144"/>
+                      <w:jc w:val="center"/>
+                    </w:trPr>
+                    <w:tc>
+                      <w:tcPr>
+                        <w:tcW w:w="0" w:type="auto"/>
+                        <w:shd w:val="clear" w:color="auto" w:fill="D4E2F0" w:themeFill="accent1"/>
+                      </w:tcPr>
+                      <w:p w14:paraId="4DE29AE9" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47">
+                        <w:pPr>
+                          <w:rPr>
+                            <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                          </w:rPr>
+                        </w:pPr>
+                      </w:p>
+                    </w:tc>
+                  </w:tr>
+                </w:tbl>
+                <w:p w14:paraId="6C5C5723" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47">
+                  <w:pPr>
+                    <w:rPr>
+                      <w:color w:val="FFFFFF" w:themeColor="background1"/>
+                    </w:rPr>
+                  </w:pPr>
+                </w:p>
+              </w:tc>
+            </w:tr>
+          </w:tbl>
+          <w:p w14:paraId="4E139176" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47">
+            <w:pPr>
+              <w:rPr>
+                <w:color w:val="FFFFFF" w:themeColor="background1"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00A20C5E" w14:paraId="501F72ED" w14:textId="77777777">
+        <w:trPr>
+          <w:cnfStyle w:val="010000000000" w:firstRow="0" w:lastRow="1" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+          <w:trHeight w:val="3312"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="10800" w:type="dxa"/>
+            <w:vAlign w:val="bottom"/>
+          </w:tcPr>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblW w:w="0" w:type="auto"/>
+              <w:tblCellMar>
+                <w:left w:w="14" w:type="dxa"/>
+                <w:bottom w:w="432" w:type="dxa"/>
+                <w:right w:w="14" w:type="dxa"/>
+              </w:tblCellMar>
+              <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="5130"/>
+              <w:gridCol w:w="2358"/>
+              <w:gridCol w:w="3297"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="67F5EEFE" w14:textId="77777777">
+              <w:trPr>
+                <w:trHeight w:val="1557"/>
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="5130" w:type="dxa"/>
+                  <w:vAlign w:val="bottom"/>
+                </w:tcPr>
+                <w:p w14:paraId="6DE73AC2" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="008460CD">
+                  <w:pPr>
+                    <w:pStyle w:val="ad"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:fldChar w:fldCharType="begin"/>
+                  </w:r>
+                  <w:r>
+                    <w:instrText xml:space="preserve"> PLACEHOLDER "[Insert Date]" \* MERGEFORMAT </w:instrText>
+                  </w:r>
+                  <w:r>
+                    <w:fldChar w:fldCharType="separate"/>
+                  </w:r>
+                  <w:r w:rsidR="00AF6251">
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>[</w:t>
+                  </w:r>
+                  <w:r w:rsidR="00AF6251">
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>插入日期</w:t>
+                  </w:r>
+                  <w:r w:rsidR="00AF6251">
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>]</w:t>
+                  </w:r>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:fldChar w:fldCharType="end"/>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="14677901"/>
+                  <w:placeholder>
+                    <w:docPart w:val="C3F2611479793D48912BB3A10E4935B9"/>
+                  </w:placeholder>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="2358" w:type="dxa"/>
+                      <w:vAlign w:val="bottom"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="5AC60AFA" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53" w:rsidP="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="a5"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>读者</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:sdt>
+                <w:sdtPr>
+                  <w:rPr>
+                    <w:b/>
+                    <w:caps/>
+                    <w:color w:val="D4E2F0" w:themeColor="accent1"/>
+                    <w:sz w:val="100"/>
+                    <w:szCs w:val="100"/>
+                  </w:rPr>
+                  <w:id w:val="14677900"/>
+                  <w:placeholder>
+                    <w:docPart w:val="497B953C051BE441AC65D2205F4F80A8"/>
+                  </w:placeholder>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3297" w:type="dxa"/>
+                      <w:tcMar>
+                        <w:right w:w="432" w:type="dxa"/>
+                      </w:tcMar>
+                      <w:vAlign w:val="bottom"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="7AA0053D" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53" w:rsidP="006A0A53">
+                      <w:pPr>
+                        <w:spacing w:line="1000" w:lineRule="exact"/>
+                        <w:jc w:val="right"/>
+                        <w:rPr>
+                          <w:b/>
+                          <w:caps/>
+                          <w:color w:val="D4E2F0" w:themeColor="accent1"/>
+                          <w:sz w:val="100"/>
+                          <w:szCs w:val="100"/>
+                        </w:rPr>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                          <w:b/>
+                          <w:caps/>
+                          <w:color w:val="D4E2F0" w:themeColor="accent1"/>
+                          <w:sz w:val="100"/>
+                          <w:szCs w:val="100"/>
+                        </w:rPr>
+                        <w:t>打开</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+            </w:tr>
+          </w:tbl>
+          <w:p w14:paraId="60DE6D99" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47">
+            <w:pPr>
+              <w:rPr>
+                <w:color w:val="FFFFFF" w:themeColor="background1"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:sdt>
+      <w:sdtPr>
+        <w:id w:val="6002713"/>
+        <w:placeholder>
+          <w:docPart w:val="34200E08FB91D44BA9A986FE816FE74A"/>
+        </w:placeholder>
+      </w:sdtPr>
+      <w:sdtEndPr/>
+      <w:sdtContent>
+        <w:p w14:paraId="6188E0F6" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="1"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>主题</w:t>
+          </w:r>
+        </w:p>
+      </w:sdtContent>
+    </w:sdt>
+    <w:sdt>
+      <w:sdtPr>
+        <w:id w:val="6002714"/>
+        <w:placeholder>
+          <w:docPart w:val="9BEB0F7179E4D3408542872538DF32EF"/>
+        </w:placeholder>
+      </w:sdtPr>
+      <w:sdtEndPr/>
+      <w:sdtContent>
+        <w:p w14:paraId="4E9418BB" w14:textId="23E8C963" w:rsidR="00342A6D" w:rsidRDefault="00342A6D" w:rsidP="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>这是一个单词</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t xml:space="preserve"> </w:t>
+          </w:r>
+          <w:r w:rsidR="000F595B">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>{</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>n</w:t>
+          </w:r>
+          <w:r w:rsidR="000F595B">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>ame}</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>测试</w:t>
+          </w:r>
+        </w:p>
+        <w:p w14:paraId="2A0B9E5A" w14:textId="77777777" w:rsidR="00342A6D" w:rsidRDefault="00342A6D" w:rsidP="00342A6D">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>这是一个单词</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t xml:space="preserve"> {Name}</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>测试</w:t>
+          </w:r>
+        </w:p>
+        <w:p w14:paraId="66920D3F" w14:textId="295C94C5" w:rsidR="00342A6D" w:rsidRDefault="00342A6D" w:rsidP="00342A6D">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>这是一个单词</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t xml:space="preserve"> {N</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>AME</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>}</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>测试</w:t>
+          </w:r>
+        </w:p>
+        <w:p w14:paraId="7CC6E1F0" w14:textId="44087120" w:rsidR="00342A6D" w:rsidRDefault="00342A6D" w:rsidP="00342A6D">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>这是一个单词</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t xml:space="preserve"> {</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>{</w:t>
+          </w:r>
+          <w:r w:rsidR="00F83A84">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>名字</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>}</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>}</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>测试</w:t>
+          </w:r>
+        </w:p>
+        <w:p w14:paraId="2F1200E3" w14:textId="18840EF5" w:rsidR="00F83A84" w:rsidRDefault="00F83A84" w:rsidP="00F83A84">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>这是一个单词</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t xml:space="preserve"> </w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>$</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>名字</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>$</w:t>
+          </w:r>
+          <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+          <w:bookmarkEnd w:id="0"/>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>测试</w:t>
+          </w:r>
+        </w:p>
+        <w:p w14:paraId="5B2B28AA" w14:textId="27584BF4" w:rsidR="000F595B" w:rsidRDefault="000F595B" w:rsidP="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+              <w:lang w:eastAsia="zh-CN"/>
+            </w:rPr>
+            <w:t>大家好！</w:t>
+          </w:r>
+        </w:p>
+        <w:p w14:paraId="21C3DFCC" w14:textId="77777777" w:rsidR="006A0A53" w:rsidRDefault="006A0A53" w:rsidP="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>当</w:t>
+          </w:r>
+          <w:r w:rsidR="00E242DB">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>『</w:t>
+          </w:r>
+          <w:r w:rsidR="00E242DB">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>Name</w:t>
+          </w:r>
+          <w:r w:rsidR="00E242DB">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>』</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>打开折页册时，这将是他们最先看到的文字，此处是简短扼要地摘要您所提供之产品或服务的好位置。</w:t>
+          </w:r>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t xml:space="preserve"> </w:t>
+          </w:r>
+        </w:p>
+        <w:p w14:paraId="726D4702" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53" w:rsidP="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:after="120"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>尽量以令人信服及引人入胜的方式来叙述这段文字，读者才会想阅读折页册的其他内容。请务必让简介的范围保持精简，如此您才能在折页册的有限篇幅中充分涵盖您所提出的概念。</w:t>
+          </w:r>
+        </w:p>
+      </w:sdtContent>
+    </w:sdt>
+    <w:p w14:paraId="654A16E1" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+      <w:pPr>
+        <w:pStyle w:val="ab"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:noProof/>
+          <w:lang w:eastAsia="zh-CN"/>
+        </w:rPr>
+        <w:drawing>
+          <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="3280895F" wp14:editId="0822CC38">
+            <wp:extent cx="5486400" cy="1465118"/>
+            <wp:effectExtent l="76200" t="50800" r="101600" b="160655"/>
+            <wp:docPr id="2" name="Diagram 2"/>
+            <wp:cNvGraphicFramePr/>
+            <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+              <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/diagram">
+                <dgm:relIds xmlns:dgm="http://schemas.openxmlformats.org/drawingml/2006/diagram" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:dm="rId9" r:lo="rId10" r:qs="rId11" r:cs="rId12"/>
+              </a:graphicData>
+            </a:graphic>
+          </wp:inline>
+        </w:drawing>
+      </w:r>
+    </w:p>
+    <w:sdt>
+      <w:sdtPr>
+        <w:id w:val="6002722"/>
+        <w:placeholder>
+          <w:docPart w:val="9D2FA0AB6BD32B4481448EBC2C05263C"/>
+        </w:placeholder>
+      </w:sdtPr>
+      <w:sdtEndPr/>
+      <w:sdtContent>
+        <w:p w14:paraId="665C9904" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="1"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>主题</w:t>
+          </w:r>
+        </w:p>
+      </w:sdtContent>
+    </w:sdt>
+    <w:sdt>
+      <w:sdtPr>
+        <w:id w:val="6002725"/>
+        <w:placeholder>
+          <w:docPart w:val="AD9706BC8998A44B874FC6B4FC2D96D8"/>
+        </w:placeholder>
+      </w:sdtPr>
+      <w:sdtEndPr/>
+      <w:sdtContent>
+        <w:p w14:paraId="09672225" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+          </w:pPr>
+          <w:r w:rsidRPr="006A0A53">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>尽量以令人信服及引人入胜的方式来叙述这段文字，读者才会想阅读折页册的其他内容。请务必让简介的范围保持精简，如此您才能在折页册的有限篇幅中充分涵盖您所提出的概念。</w:t>
+          </w:r>
+        </w:p>
+      </w:sdtContent>
+    </w:sdt>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblCellMar>
+          <w:left w:w="0" w:type="dxa"/>
+          <w:right w:w="0" w:type="dxa"/>
+        </w:tblCellMar>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="4789"/>
+        <w:gridCol w:w="4960"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00A20C5E" w14:paraId="7423E7DD" w14:textId="77777777">
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2500" w:type="pct"/>
+          </w:tcPr>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblStyle w:val="FinancialTable"/>
+              <w:tblW w:w="5000" w:type="pct"/>
+              <w:tblLook w:val="04E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="3495"/>
+              <w:gridCol w:w="1294"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="4F541305" w14:textId="77777777">
+              <w:trPr>
+                <w:cnfStyle w:val="100000000000" w:firstRow="1" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+              </w:trPr>
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="6002729"/>
+                  <w:placeholder>
+                    <w:docPart w:val="6A0716ED42B0ED4A968C943D6009E1F3"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3649" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="5495AA4D" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53" w:rsidP="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableHeading-Left"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>产品</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="6002731"/>
+                  <w:placeholder>
+                    <w:docPart w:val="6752C425EE116F45982743970C77D666"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="1351" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="0CB3230B" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53" w:rsidP="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableHeading-Center"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>金额</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+            </w:tr>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="3F8DBCDC" w14:textId="77777777">
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="6002755"/>
+                  <w:placeholder>
+                    <w:docPart w:val="9143B2772504E2448E7489CAABD4B282"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3649" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="676A7F3B" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53" w:rsidP="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableText-Left"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>名称</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1351" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="7B9FE128" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Decimal"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>00.00</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="68964D18" w14:textId="77777777">
+              <w:trPr>
+                <w:cnfStyle w:val="000000010000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="1" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+              </w:trPr>
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="3192532"/>
+                  <w:placeholder>
+                    <w:docPart w:val="F1939C5D3D47EF45BF6A876827F6F4C6"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3649" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="3B930B2E" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableText-Left"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>名称</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1351" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="1320B396" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Decimal"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>00.00</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="28E2E5BD" w14:textId="77777777">
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="3192534"/>
+                  <w:placeholder>
+                    <w:docPart w:val="CAD47AF63227A146AE9BDED7F7274FA6"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3649" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="6918761F" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableText-Left"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>名称</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1351" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="6A786C62" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Decimal"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>00.00</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="62796633" w14:textId="77777777">
+              <w:trPr>
+                <w:cnfStyle w:val="000000010000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="1" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+              </w:trPr>
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="3192536"/>
+                  <w:placeholder>
+                    <w:docPart w:val="28B4A119AA4C1C4B8F98011800FA218D"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3649" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="239439FC" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableText-Left"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>名称</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1351" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="0881467A" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Decimal"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>00.00</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="4208A2DA" w14:textId="77777777">
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="3192538"/>
+                  <w:placeholder>
+                    <w:docPart w:val="5A47A360745A4F47A8F424E05EECD15A"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3649" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="66528EFD" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableText-Left"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>名称</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1351" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="08445F4C" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Decimal"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>000.00</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="62BC15C0" w14:textId="77777777">
+              <w:trPr>
+                <w:cnfStyle w:val="000000010000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="1" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+              </w:trPr>
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="3192540"/>
+                  <w:placeholder>
+                    <w:docPart w:val="A3A5BB8E9A45E043A07304D32878D615"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3649" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="605C6088" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableText-Left"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>名称</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1351" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="52F02B5B" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Decimal"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>00.00</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="71C5C676" w14:textId="77777777">
+              <w:sdt>
+                <w:sdtPr>
+                  <w:id w:val="3192542"/>
+                  <w:placeholder>
+                    <w:docPart w:val="C30AB6F41730EB4AAB09208F76B73374"/>
+                  </w:placeholder>
+                  <w:text/>
+                </w:sdtPr>
+                <w:sdtEndPr/>
+                <w:sdtContent>
+                  <w:tc>
+                    <w:tcPr>
+                      <w:tcW w:w="3649" w:type="pct"/>
+                      <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="649B62D4" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+                      <w:pPr>
+                        <w:pStyle w:val="TableText-Left"/>
+                      </w:pPr>
+                      <w:r>
+                        <w:rPr>
+                          <w:rFonts w:hint="eastAsia"/>
+                        </w:rPr>
+                        <w:t>名称</w:t>
+                      </w:r>
+                    </w:p>
+                  </w:tc>
+                </w:sdtContent>
+              </w:sdt>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1351" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="382B576D" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Decimal"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>00.00</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A20C5E" w14:paraId="00B7F4EA" w14:textId="77777777">
+              <w:trPr>
+                <w:cnfStyle w:val="010000000000" w:firstRow="0" w:lastRow="1" w:firstColumn="0" w:lastColumn="0" w:oddVBand="0" w:evenVBand="0" w:oddHBand="0" w:evenHBand="0" w:firstRowFirstColumn="0" w:firstRowLastColumn="0" w:lastRowFirstColumn="0" w:lastRowLastColumn="0"/>
+              </w:trPr>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="3649" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="4B5BA337" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Right"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>总计</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="1351" w:type="pct"/>
+                  <w:vAlign w:val="center"/>
+                </w:tcPr>
+                <w:p w14:paraId="159142AF" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+                  <w:pPr>
+                    <w:pStyle w:val="TableText-Decimal"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:rPr>
+                      <w:lang w:val="zh-CN"/>
+                    </w:rPr>
+                    <w:t>0,000.00</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+          </w:tbl>
+          <w:p w14:paraId="2C3B7779" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47">
+            <w:pPr>
+              <w:pStyle w:val="ab"/>
+              <w:spacing w:before="200"/>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="2500" w:type="pct"/>
+          </w:tcPr>
+          <w:p w14:paraId="006314DC" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00AF6251">
+            <w:r>
+              <w:rPr>
+                <w:noProof/>
+                <w:lang w:eastAsia="zh-CN"/>
+              </w:rPr>
+              <w:drawing>
+                <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="3A01377E" wp14:editId="5BBAAA9F">
+                  <wp:extent cx="3148330" cy="1700048"/>
+                  <wp:effectExtent l="0" t="0" r="1270" b="1905"/>
+                  <wp:docPr id="3" name="Chart 3"/>
+                  <wp:cNvGraphicFramePr/>
+                  <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                    <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/chart">
+                      <c:chart xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:id="rId14"/>
+                    </a:graphicData>
+                  </a:graphic>
+                </wp:inline>
+              </w:drawing>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:sdt>
+      <w:sdtPr>
+        <w:id w:val="6002743"/>
+        <w:placeholder>
+          <w:docPart w:val="EF8DCCD28DE7CF4FBD598CB9B6B98E3D"/>
+        </w:placeholder>
+      </w:sdtPr>
+      <w:sdtEndPr/>
+      <w:sdtContent>
+        <w:p w14:paraId="20830ABA" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="006A0A53">
+          <w:pPr>
+            <w:pStyle w:val="ab"/>
+            <w:spacing w:before="200"/>
+          </w:pPr>
+          <w:r w:rsidRPr="006A0A53">
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>尽量以令人信服及引人入胜的方式来叙述这段文字，读者才会想阅读折页册的其他内容。请务必让简介的范围保持精简，如此您才能在折页册的有限篇幅中充分涵盖您所提出的概念。</w:t>
+          </w:r>
+        </w:p>
+      </w:sdtContent>
+    </w:sdt>
+    <w:p w14:paraId="5E3F4E5F" w14:textId="77777777" w:rsidR="00594A47" w:rsidRDefault="00594A47"/>
+    <w:sectPr w:rsidR="00594A47" w:rsidSect="00594A47">
+      <w:headerReference w:type="even" r:id="rId15"/>
+      <w:headerReference w:type="default" r:id="rId16"/>
+      <w:footerReference w:type="default" r:id="rId17"/>
+      <w:headerReference w:type="first" r:id="rId18"/>
+      <w:pgSz w:w="11909" w:h="16834" w:code="9"/>
+      <w:pgMar w:top="720" w:right="1080" w:bottom="432" w:left="1080" w:header="720" w:footer="432" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:titlePg/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

@@ -19,39 +19,13 @@
       程序应该支持中文（以及其它UTF8字符）
 
       | tagname |
+      | name    |
       | {name}  |
       | {Name}  |
       | {NAME}  |
       | {{名字}} |
       | $名字$   |
 
-  场景: 所读取的替换标签应与docx内的xml判断一致
-    这是一个深入到docx的内部结构的场景
-    假如文件内包含"{name}"标签
-    那么应该解析这个标签应该能读到这样的XML片段：
-    """
-    <w:r w:rsidR="000F595B">
-      <w:rPr>
-        <w:rFonts w:hint="eastAsia"/>
-        <w:lang w:eastAsia="zh-CN"/>
-      </w:rPr>
-      <w:t>{</w:t>
-    </w:r>
-    <w:r>
-      <w:rPr>
-        <w:rFonts w:hint="eastAsia"/>
-        <w:lang w:eastAsia="zh-CN"/>
-      </w:rPr>
-      <w:t>n</w:t>
-    </w:r>
-    <w:r w:rsidR="000F595B">
-      <w:rPr>
-        <w:rFonts w:hint="eastAsia"/>
-        <w:lang w:eastAsia="zh-CN"/>
-      </w:rPr>
-      <w:t>ame}</w:t>
-    </w:r>
-    """
 
   场景: 读取表格行替换标签
     这通常是在表格上追加行所使用的

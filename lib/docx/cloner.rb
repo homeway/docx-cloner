@@ -54,7 +54,7 @@ module Docx
       end
     end
 
-    class DocxReader
+    class DocxTool
 
       '加载docx文件，将段落存储到@paragraph，用@paragraph[:text_content]检索，再从段落内检索xml标签位置'
       def initialize(file)
@@ -91,14 +91,31 @@ module Docx
       end
 
       def read_single_tag_xml(tag)
-        findit = false
         @paragraph.each do |p|
           if p[:text_content].include? tag
-            findit = true
-            return tag
+            from = p[:text_content].index tag
+            to = from + tag.size - 1
+            #puts "from:#{from}, to:#{to}"
+            pos = 0
+            dest = ""
+            p[:text_run].each do |wt|
+              #puts "pos:#{pos}"
+              if pos >= from && pos < to
+                dest << wt.parent.to_xml << "\n"
+              end
+              if pos >= to
+                return dest
+              end
+              pos += wt.content.size
+            end
+            return dest
           end
+
         end
         return ''
+      end
+
+      def set_single_tag(tag, value)
       end
 
     end

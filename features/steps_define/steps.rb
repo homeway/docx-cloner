@@ -1,27 +1,43 @@
 #encoding: utf-8
 lib = File.expand_path('../../../lib', __FILE__)
 require "#{lib}/docx/cloner"
+require 'fileutils'
 
 假如(/^"(.*?)"示例文件夹中存在一个"(.*?)"的文件$/) do |folder, file|
-  @filename = File.expand_path "#{folder}/#{file}"
-  s = File.stat @filename
-  s.file?.should be_true
+  @source_filename = File.expand_path "#{folder}/#{file}"
+  File.exists?(@source_filename).should be_true
 end
 
 
 那么(/^程序应该能读到"(.*?)"这个标签词$/) do |tag_name|
-  docx = Docx::Cloner::DocxReader.new @filename
+  docx = Docx::Cloner::DocxTool.new @source_filename
   result = docx.include_single_tag? tag_name
+  docx.release
   result.should be_true
 end
 
 
-假如(/^文件内包含"(.*?)"标签$/) do |tag|
-  @tagname = tag
+假如(/^"(.*?)"这个目标文件已经被清除$/) do |dest|
+  @dest_filename = dest
+  File.delete @dest_filename if File.exist?(dest)
+  File.exist?(dest).should be_false
 end
 
-那么(/^应该解析这个标签应该能读到这样的XML片段：$/) do |xml_tag|
-  docx = Docx::Cloner::DocxReader.new @filename
-  result = docx.read_single_tag_xml @tagname
-  result.should == xml_tag
+假如(/^克隆一个新的目标文件$/) do
+  FileUtils.copy @source_filename, @dest_filename
+  File.exist?(@dest_filename).should be_true
+end
+
+而且(/^程序应该能将目标文件中的"(.*?)"替换为"(.*?)"$/) do |tag, value|
+  docx = Docx::Cloner::DocxTool.new @dest_filename
+  result = docx.set_single_tag tag, value
+  docx.release
+  result.should be_true
+end
+
+而且(/^被目标文件中应该包含"(.*?)"这个标签词$/) do |value|
+  docx = Docx::Cloner::DocxTool.new @dest_filename
+  result = docx.include_single_tag? value
+  docx.release
+  result.should be_true
 end

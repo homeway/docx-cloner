@@ -23,16 +23,16 @@ end
   File.exist?(dest).should be_false
 end
 
-假如(/^克隆一个新的目标文件$/) do
-  FileUtils.copy @source_filename, @dest_filename
-  File.exist?(@dest_filename).should be_true
-end
-
-而且(/^程序应该能将目标文件中的"(.*?)"替换为"(.*?)"$/) do |tag, value|
-  docx = Docx::Cloner::DocxTool.new @dest_filename
+假如(/^程序将目标文件中的"(.*?)"替换为"(.*?)"$/) do |tag, value|
+  docx = Docx::Cloner::DocxTool.new @source_filename
   result = docx.set_single_tag tag, value
+  docx.save @dest_filename
   docx.release
   result.should be_true
+end
+
+那么(/^应该生成目标文件$/) do
+  File.exist?(@dest_filename).should be_true
 end
 
 而且(/^被目标文件中应该包含"(.*?)"这个标签词$/) do |value|

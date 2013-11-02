@@ -13,6 +13,10 @@ module Docx
             result = @docx.include_single_tag? "$名字$"
             result.should be_true
           end
+          it "读取'{Name}'标签" do
+            result = @docx.include_single_tag? "{Name}"
+            result.should be_true
+          end
         end
 
         context "#read_single_tags_xml" do
@@ -51,25 +55,29 @@ module Docx
 
       context "以下测试是针对标签替换，即写操作" do
         before :all do
-          sourc_file = 'docx-examples/source.docx'
-          dest_file = 'docx-examples/dest.docx'
-          File.delete dest_file if File.exist?(dest_file)
+          @sourc_file = 'docx-examples/source.docx'
+          @dest_file = 'docx-examples/dest.docx'
+          File.delete @dest_file if File.exist?(@dest_file)
 
-          FileUtils.copy sourc_file, dest_file
-          @dest_docx = DocxTool.new dest_file
+          @source_docx = DocxTool.new @sourc_file
         end
 
         context "#set_single_tag" do
-          it "设置单个标签{name}" do
-            result = @dest_docx.set_single_tag '{name}', '周大福'
+          it "设置单个标签{Name}" do
+            value = '周大福'
+            @source_docx.set_single_tag '{Name}', value
+            @source_docx.save @dest_file
+
+            dest = DocxTool.new @dest_file
+            result = dest.include_single_tag? value
+            dest.release
             result.should be_true
           end
 
         end
 
         after :all do
-          @dest_docx.release
-          File.delete dest_file if File.exist?(dest_file)
+          @source_docx.release
         end
       end
 

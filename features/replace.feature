@@ -31,3 +31,17 @@
       | {{名字}} | 周大福 |
       | $名字$   | 周大福 |
 
+
+  @wip
+  场景大纲: 2、设置多个标签的情形
+    如果同时替换5个标签的，也要能正确运行
+
+    假如程序同时将目标文件中的"<tagname1>"替换为"<value1>"，"<tagname2>"替换为"<value2>"，"<tagname3>"替换为"<value3>"，"<tagname4>"替换为"<value4>"，"<tagname5>"替换为"<value5>"
+    那么应该生成目标文件
+    而且被目标文件中应该包含"<value1>"、"<value2>"、"<value3>"、"<value4>"、"<value5>"、这些字符串
+
+    例子: 替换单个标签的几种情况
+
+      | tagname1 | value1 | tagname2 | value2 | tagname3 | value3 | tagname4 | value4 | tagname5 | value5 |
+      | {name}   | 周大福  | {Name}   | 周大福  | {NAME}   | 周大福  | {{名字}}  | 周大福  | $名字$   | 周大福 |
+      | {name}   | 周大福  | {Name}   | 周大福  | {NAME}   | 周大福  | {{名字}}  | 周大福  | $名字$   | 周大福 |

@@ -41,3 +41,26 @@ end
   docx.release
   result.should be_true
 end
+
+假如(/^程序同时将目标文件中的"(.*?)"替换为"(.*?)"，"(.*?)"替换为"(.*?)"，"(.*?)"替换为"(.*?)"，"(.*?)"替换为"(.*?)"，"(.*?)"替换为"(.*?)"$/) do |t1, v1, t2, v2, t3, v3, t4, v4, t5, v5|
+  docx = Docx::Cloner::DocxTool.new @source_filename
+  result = docx.set_single_tag t1, v1
+  result &= docx.set_single_tag t2, v2
+  result &= docx.set_single_tag t3, v3
+  result &= docx.set_single_tag t4, v4
+  result &= docx.set_single_tag t5, v5
+  docx.save @dest_filename
+  docx.release
+  result.should be_true
+end
+
+那么(/^被目标文件中应该包含"(.*?)"、"(.*?)"、"(.*?)"、"(.*?)"、"(.*?)"、这些字符串$/) do |v1, v2, v3, v4, v5|
+  docx = Docx::Cloner::DocxTool.new @dest_filename
+  result = docx.include_single_tag? v1
+  result = docx.include_single_tag? v2
+  result = docx.include_single_tag? v3
+  result = docx.include_single_tag? v4
+  result = docx.include_single_tag? v5
+  docx.release
+  result.should be_true
+end

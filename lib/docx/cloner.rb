@@ -138,7 +138,7 @@ module Docx
           if p[:text_content].include? tag
             from = p[:text_content].index tag
             to = from + tag.size - 1
-            #puts "from:#{from}, to:#{to}"
+            puts "tag:#{tag} | from:#{from}, to:#{to} >> #{p[:text_content]}"
             pos = 0
             dest = []
             #puts p[:text_run]
@@ -146,11 +146,11 @@ module Docx
               #puts "pos:#{pos}"
               #通常情况下，msword会把标签拆分成多个xml标签，如'{name}'被拆分成'<wt>{</wt>'和'<wt>name}</wt>'
               #这可能跟编辑器有关，在处理中文时，这是一种常见的情形
-              if pos >= from && pos < to
+              if pos+1 >= from && pos <= to #通过pos+1修正临界点问题
                 dest << wt
               end
-              if pos >= to
-                break if pos >= to
+              if pos > to
+                break
               end
               pos += wt.content.size
 
@@ -159,6 +159,7 @@ module Docx
               #puts "pos:#{pos}, to:#{to}, dest.size:#{dest.size}"
               #puts wt
               if pos >= to && dest.size == 0
+                puts "simple_type | pos:#{pos}, to:#{to} >> #{wt.content}"
                 wt.inner_html = wt.content.sub(tag, value)
                 return true #如果是这种简单情形，就不再需要后续处理了
               end
@@ -166,8 +167,14 @@ module Docx
 
             if dest.size > 0
               #puts dest.first
+              puts "\ncomplex_type ->"
+              puts dest.first
               dest.first.inner_html = value
-              dest[1..-1].each {|node| node.remove }
+              dest[1..-1].each do |node|
+                puts node
+                node.remove
+              end
+              puts "\n"
               return true
             else
               return false

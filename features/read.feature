@@ -9,14 +9,14 @@
   背景: 可读的示例文件列举
     假如"docx-examples"示例文件夹中存在一个"read-single-tags.docx"的文件
 
-  场景大纲: 读取词语替换标签
+  场景大纲: 简单地读取词语替换标签
     这是最简单的情形，例如将标签{name}，替换为真正的姓名。
 
     那么程序应该能读到"<tagname>"这个标签词
 
     例子: 读取标签的例子
       "{}"可作为默认的正则表达式设计，在DSL中无需指定
-      程序应该支持中文（以及其它UTF8字符），且不区分大小写
+      程序应该支持中文（以及其它UTF8字符）
 
       | tagname |
       | {name}  |
@@ -25,6 +25,33 @@
       | {{名字}} |
       | $名字$   |
 
+  场景: 所读取的替换标签应与docx内的xml判断一致
+    这是一个深入到docx的内部结构的场景
+    假如文件内包含"{name}"标签
+    那么应该解析这个标签应该能读到这样的XML片段：
+    """
+    <w:r w:rsidR="000F595B">
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia"/>
+        <w:lang w:eastAsia="zh-CN"/>
+      </w:rPr>
+      <w:t>{</w:t>
+    </w:r>
+    <w:r>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia"/>
+        <w:lang w:eastAsia="zh-CN"/>
+      </w:rPr>
+      <w:t>n</w:t>
+    </w:r>
+    <w:r w:rsidR="000F595B">
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia"/>
+        <w:lang w:eastAsia="zh-CN"/>
+      </w:rPr>
+      <w:t>ame}</w:t>
+    </w:r>
+    """
 
   场景: 读取表格行替换标签
     这通常是在表格上追加行所使用的

@@ -10,8 +10,8 @@ module Docx
 
       context "#read_single_tag" do
         it "读取'$名字$'标签" do
-          result = @docx.read_single_tag "名字"
-          result.should == "名字"
+          result = @docx.include_single_tag? "$名字$"
+          result.should be_true
         end
       end
 

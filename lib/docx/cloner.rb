@@ -1,3 +1,4 @@
+#encoding: utf-8
 require "docx/cloner/version"
 require 'zip/zip'  #rubyzip gem
 require 'nokogiri'
@@ -54,42 +55,52 @@ module Docx
     end
 
     class DocxReader
+
+      '加载docx文件，将段落存储到@paragraph，用@paragraph[:text_content]检索，再从段落内检索xml标签位置'
       def initialize(file)
         @zip = Zip::ZipFile.open(file)
         @paragraph = []
         @replace = {}
         _xml = @zip.read("word/document.xml")
-        doc = Nokogiri::XML(_xml)
-        wp_set = doc.xpath(".//w:p")
-        puts "#{wp_set.size}'s wp"
-        wp_set.each do |p|
-          h = {text_content: '', text_run: []}
-          p.xpath(".//w:t").each do |t|
-            h[:text_content] << t.content
-            h[:text_run] << t
+        @doc = Nokogiri::XML(_xml)
+        wp_set = @doc.xpath(".//w:p")
+        #puts "#{wp_set.size}'s wp"
+        wp_set.each do |wp|
+          p = {text_content: '', text_run: []}
+          wp.xpath(".//w:t").each do |t|
+            p[:text_content] << t.content
+            p[:text_run] << t
           end
-          @paragraph << h
+          @paragraph << p
+          #puts p[:text_content].include? '$名字$'
         end
-        puts @paragraph
+        #puts @paragraph
       end
 
       def release
         @zip.close
       end
-
-      def set_regx(regx)
-      end
       
-      def read_single_tag(tag)
-        _xml = @zip.read("word/document.xml")
-        doc = Nokogiri::XML(_xml)
-        tags = doc.root.xpath("//w:t[contains(., '#{tag}')]")
-        puts "tags: #{tags.size}, #{tags}"
-        tags.each do |field|
-          puts field
+      def include_single_tag?(tag)
+        @paragraph.each do |p|
+          if p[:text_content].include? tag
+            return true
+          end
         end
-        tags
+        return false
       end
+
+      def read_single_tag_xml(tag)
+        findit = false
+        @paragraph.each do |p|
+          if p[:text_content].include? tag
+            findit = true
+            return tag
+          end
+        end
+        return ''
+      end
+
     end
   end
 end

@@ -73,11 +73,7 @@ end
   #先设置行标签的复制范围和类型
   #再逐行克隆表数据
   #yield块结束后清除标签
-  result = docx.set_row_tags @data.first, :table_row do
-    @data[1..-1].each do |row|
-      docx.set_row_data row #使用docx实例的内部方法克隆数据
-    end
-  end
+  result = docx.set_row_tags @data.first, @data[1..-1], 'tr'
   docx.save @dest_filename
   docx.release
   result.should be_true

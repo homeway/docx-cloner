@@ -76,13 +76,16 @@ module Docx
         end
 
         context "#set_row_tags" do
-          it "设置表格中的行标签", wip: true do
-            data = [["{名称1}", "{00.01}"], ["自行车", "125.00"], ["大卡车", "256500.00"]]
-            result = @source_docx.set_row_tags data.first, :table_row do
-              data[1..-1].each do |row|
-                @source_docx.set_row_data row #使用docx实例的内部方法克隆数据
-              end
+          it "找到标签所在行的父节点" do
+            tags = ["{名称1}", "{00.01}"]
+            tags.each do |tag|
+              node = @source_docx.get_tag_scope tag, 'tr'
+              node.node_name.should == 'tr'
             end
+          end
+          it "设置表格中的行标签", wip: true do
+            data = [["{名称1}", "{00.01}"], ["自行车1", "125.00"], ["大卡车1", "256500.00"], ["自行车2", "125.00"], ["大卡车2", "256500.00"],]
+            result = @source_docx.set_row_tags data.first, data[1..-1], 'tr'
             @source_docx.save @dest_file
             result.should be_true            
           end

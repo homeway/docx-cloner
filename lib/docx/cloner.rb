@@ -99,7 +99,7 @@ module Docx
 
       def generate_paragraph node
         paragraphs = []
-        puts "查找范围：#{node.path}"
+        #puts "查找范围：#{node.path}"
         wp_set = node.xpath(".//w:p")
         #puts "#{wp_set.size}'s wp"
         wp_set.each do |wp|
@@ -153,7 +153,7 @@ module Docx
             end
 
             if dest.size > 0
-              puts "被替换节点：#{dest.first.path}"
+              #puts "被替换节点：#{dest.first.path}"
               dest.first.content = value
               dest[1..-1].each do |node|
                 #puts node
@@ -176,24 +176,24 @@ module Docx
       def clone_tag_scope node, times
         #puts "clone #{node.node_name} #{times} times"
         nodes = Array.new times
-        puts "被克隆节点：#{node.path}"
+        #puts "被克隆节点：#{node.path}"
         times.downto(1).each do |_i|
           i = _i.to_i - 1
           nodes[i] = node.dup
           node.add_next_sibling nodes[i]
-          puts "第#{i+1}个节点克隆：#{nodes[i].path}"
+          #puts "第#{i+1}个节点克隆：#{nodes[i].path}"
         end
         return nodes
       end
 
       #根据行标签设置，替换成多行数据，这里考虑表格的一般情况
       def set_row_tags tags, values, type
-        puts "tags:#{tags}, values:#{values}, type:#{type}"
+        #puts "tags:#{tags}, values:#{values}, type:#{type}"
         #找到标签所在行的父节点
         tag_scope_node = get_tag_scope tags.first, type
         value_scope_nodes = clone_tag_scope tag_scope_node, values.size
         value_scope_nodes.each_with_index do |node, r|
-          puts "查找范围：#{node.path}"
+          #puts "查找范围：#{node.path}"
           tags.each_with_index do |tag, c|
             replace_tag tag, values[r][c], node
           end

@@ -1,6 +1,6 @@
 # Docx::Cloner
 
-TODO: Write a gem description
+This is a tool to clone docx file with tag field. And it supported utf-8 well.
 
 ## Installation
 
@@ -17,11 +17,12 @@ Or install it yourself as:
     $ gem install docx-cloner
 
 ## Usage
-    require 'docx-cloner'
+    #encoding: utf-8
+    require 'docx/cloner'
 
     sourc_file = 'source.docx'
     dest_file = 'dest.docx'
-    docx = DocxTool.new @sourc_file
+    docx = Docx::Cloner::DocxTool.new sourc_file
 
     docx.set_single_tag '{Name}', '周大福'
 

@@ -1,7 +1,7 @@
 #encoding: utf-8
 lib = File.expand_path('../../../lib', __FILE__)
 require "#{lib}/docx/cloner"
-require 'fileutils'
+#require 'fileutils'
 
 假如(/^"(.*?)"示例文件夹中存在一个"(.*?)"的文件$/) do |folder, file|
   @source_filename = File.expand_path "#{folder}/#{file}"
@@ -42,25 +42,55 @@ end
   result.should be_true
 end
 
-假如(/^程序同时将目标文件中的"(.*?)"替换为"(.*?)"，"(.*?)"替换为"(.*?)"，"(.*?)"替换为"(.*?)"，"(.*?)"替换为"(.*?)"，"(.*?)"替换为"(.*?)"$/) do |t1, v1, t2, v2, t3, v3, t4, v4, t5, v5|
+假如(/^有这样一组数据：$/) do |table|
+  @data = table.raw
+end
+
+当(/^程序将源文件的第1列中标签替换为第2列数据$/) do
+  result = true
   docx = Docx::Cloner::DocxTool.new @source_filename
-  result = docx.set_single_tag t1, v1
-  result &= docx.set_single_tag t2, v2
-  result &= docx.set_single_tag t3, v3
-  result &= docx.set_single_tag t4, v4
-  result &= docx.set_single_tag t5, v5
+  @data.each do |row|
+    result &= docx.set_single_tag row[0], row[1]
+  end
   docx.save @dest_filename
   docx.release
   result.should be_true
 end
 
-那么(/^被目标文件中应该包含"(.*?)"、"(.*?)"、"(.*?)"、"(.*?)"、"(.*?)"、这些字符串$/) do |v1, v2, v3, v4, v5|
+那么(/^被目标文件中应该包含被替换的第2列数据$/) do
+  result = true
   docx = Docx::Cloner::DocxTool.new @dest_filename
-  result = docx.include_single_tag? v1
-  result = docx.include_single_tag? v2
-  result = docx.include_single_tag? v3
-  result = docx.include_single_tag? v4
-  result = docx.include_single_tag? v5
+  @data.each do |row|
+    result &= docx.include_single_tag? row[1]
+  end
+  docx.release
+  result.should be_true
+end
+
+当(/^程序将表中第1行作为标签名，第2行以后作为行数据替换$/) do
+  docx = Docx::Cloner::DocxTool.new @source_filename
+
+  #先设置行标签的复制范围和类型
+  #再逐行克隆表数据
+  #yield块结束后清除标签
+  result = docx.set_row_tags @data.first, :table_row do
+    @data[1..-1].each do |row|
+      docx.set_row_data row #使用docx实例的内部方法克隆数据
+    end
+  end
+  docx.save @dest_filename
+  docx.release
+  result.should be_true
+end
+
+那么(/^被目标文件中应该包含被替换的第2行以后的数据$/) do
+  result = true
+  docx = Docx::Cloner::DocxTool.new @dest_filename
+  @data[1..-1].each do |row|
+    row.each do |value|
+      result &= docx.include_single_tag? value
+    end
+  end
   docx.release
   result.should be_true
 end

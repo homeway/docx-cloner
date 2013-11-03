@@ -185,6 +185,20 @@ module Docx
         return ''
       end
 
+      def set_row_tags tags, type
+        return false unless block_given? #要求必须使用块
+        #设置标签
+
+        #生成新行
+        yield
+
+        #清除标签
+        return false
+      end
+
+      def set_row_data row_value
+      end
+
     end
   end
 end

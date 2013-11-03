@@ -73,7 +73,19 @@ module Docx
             dest.release
             result.should be_true
           end
+        end
 
+        context "#set_row_tags" do
+          it "设置表格中的行标签", wip: true do
+            data = [["{名称1}", "{00.01}"], ["自行车", "125.00"], ["大卡车", "256500.00"]]
+            result = @source_docx.set_row_tags data.first, :table_row do
+              data[1..-1].each do |row|
+                @source_docx.set_row_data row #使用docx实例的内部方法克隆数据
+              end
+            end
+            @source_docx.save @dest_file
+            result.should be_true            
+          end
         end
 
         after :all do

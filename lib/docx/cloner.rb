@@ -5,55 +5,6 @@ require 'nokogiri'
 
 module Docx
   module Cloner
-    class WordXmlFile
-      def self.open(path, &block)
-        self.new(path, &block)
-      end
-
-      def initialize(path, &block)
-        @replace = {}
-        if block_given?
-          @zip = Zip::ZipFile.open(path)
-          yield self
-          @zip.close
-        else
-          @zip = Zip::ZipFile.open(path)
-        end
-      end
-
-      def merge(rec)
-        _xml = @zip.read("word/document.xml")
-        doc = Nokogiri::XML(_xml)
-        tags = doc.root.xpath("//w:t[contains(., '_Name')]")
-        tags.each do |field|
-          new_field = field
-          if field.content == 'First_Name'
-            field.inner_html = 'Adi'
-            new_field.inner_html = 'My Adi'
-            field.add_next_sibling(new_field.to_html)
-          elsif field.content == 'Last_Name'
-            field.inner_html = 'Zhou'          
-          end
-        end
-        @replace["word/document.xml"] = doc.serialize :save_with => 0
-      end
-
-      def save(path)
-        Zip::ZipFile.open(path, Zip::ZipFile::CREATE) do |out|
-          @zip.each do |entry|
-            out.get_output_stream(entry.name) do |o|
-              if @replace[entry.name]
-                o.write(@replace[entry.name])
-              else
-                o.write(@zip.read(entry.name))
-              end
-            end
-          end
-        end
-        @zip.close
-      end
-    end
-
     class DocxTool
 
       '加载docx文件，将段落存储到@paragraph，用@paragraph[:text_content]检索，再从段落内检索xml标签位置'

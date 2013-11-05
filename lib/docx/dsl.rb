@@ -30,8 +30,8 @@ module Docx
     }.call
 
     def method_missing name, *args
-      puts "name: #{name}"
-      puts "args: #{args}"
+      #puts "name: #{name}"
+      #puts "args: #{args}"
       /set_row_(.+)/.match name do
         return set_row *(args << $1) if $1
       end

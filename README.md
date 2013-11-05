@@ -34,9 +34,11 @@ it's so easy to use it with DSL:
         docx_cloner 'source.docx', 'dest.docx' do
           #replace the text of '{Name}' in 'source.docx'
           set_text '{Name}', '周大福'
+
           #multi lines replace
-          set_row_tr ["{名称1}", "{00.01}"], [["自行车1", "125.00"], ["大卡车1", "256500.00"]]
-          end
+          tags = ["{名称1}", "{00.01}"]
+          data = [["自行车1", "125.00"], ["大卡车1", "256500.00"]]
+          set_row_tr tags, data
         end
       end
     end

@@ -21,8 +21,8 @@ ABC
 extend Docx::DSL
 docx_cloner 'source.docx', 'dest.docx' do
   set_text '{Name}', '周大福'
-  set_row 'tr' do |t|
-    t[:tags] = ["{名称1}", "{00.01}"]
-    t[:data] = [["自行车1", "125.00"], ["大卡车1", "256500.00"]]
-  end
+
+  tags = ["{名称1}", "{00.01}"]
+  data = [["自行车1", "125.00"], ["大卡车1", "256500.00"]]
+  set_row_tr tags, data
 end

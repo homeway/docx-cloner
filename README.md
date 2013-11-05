@@ -17,7 +17,11 @@ Or install it yourself as:
     $ gem install docx-cloner
 
 ## Usage
-    it's so easy to use it with DSL:
+* docx_cloner
+* set_text
+* set_row_tr
+
+it's so easy to use it with DSL:
 
     #encoding: utf-8
     require 'docx/dsl'
@@ -31,9 +35,7 @@ Or install it yourself as:
           #replace the text of '{Name}' in 'source.docx'
           set_text '{Name}', '周大福'
           #multi lines replace
-          set_row 'tr' do |t|
-            t[:tags] = ["{名称1}", "{00.01}"]
-            t[:data] = [["自行车1", "125.00"], ["大卡车1", "256500.00"]]
+          set_row_tr ["{名称1}", "{00.01}"], [["自行车1", "125.00"], ["大卡车1", "256500.00"]]
           end
         end
       end

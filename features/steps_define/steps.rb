@@ -1,7 +1,10 @@
 #encoding: utf-8
 lib = File.expand_path('../../../lib', __FILE__)
+puts lib
 require "#{lib}/docx/cloner"
 #require 'fileutils'
+require "#{lib}/docx/dsl"
+
 
 假如(/^"(.*?)"示例文件夹中存在一个"(.*?)"的文件$/) do |folder, file|
   @source_filename = File.expand_path "#{folder}/#{file}"
@@ -11,7 +14,7 @@ end
 
 那么(/^程序应该能读到"(.*?)"这个标签词$/) do |tag_name|
   docx = Docx::Cloner::DocxTool.new @source_filename
-  result = docx.include_single_tag? tag_name
+  result = docx.include_text_tag? tag_name
   docx.release
   result.should be_true
 end
@@ -25,7 +28,7 @@ end
 
 假如(/^程序将目标文件中的"(.*?)"替换为"(.*?)"$/) do |tag, value|
   docx = Docx::Cloner::DocxTool.new @source_filename
-  result = docx.set_single_tag tag, value
+  result = docx.set_text_tag tag, value
   docx.save @dest_filename
   docx.release
   result.should be_true
@@ -37,7 +40,7 @@ end
 
 而且(/^被目标文件中应该包含"(.*?)"这个标签词$/) do |value|
   docx = Docx::Cloner::DocxTool.new @dest_filename
-  result = docx.include_single_tag? value
+  result = docx.include_text_tag? value
   docx.release
   result.should be_true
 end
@@ -50,7 +53,7 @@ end
   result = true
   docx = Docx::Cloner::DocxTool.new @source_filename
   @data.each do |row|
-    result &= docx.set_single_tag row[0], row[1]
+    result &= docx.set_text_tag row[0], row[1]
   end
   docx.save @dest_filename
   docx.release
@@ -61,7 +64,7 @@ end
   result = true
   docx = Docx::Cloner::DocxTool.new @dest_filename
   @data.each do |row|
-    result &= docx.include_single_tag? row[1]
+    result &= docx.include_text_tag? row[1]
   end
   docx.release
   result.should be_true
@@ -84,9 +87,32 @@ end
   docx = Docx::Cloner::DocxTool.new @dest_filename
   @data[1..-1].each do |row|
     row.each do |value|
-      result &= docx.include_single_tag? value
+      result &= docx.include_text_tag? value
     end
   end
   docx.release
   result.should be_true
+end
+
+假如(/^要求使用DSL语法$/) do
+  
+end
+
+假如(/^程序使用DSL语法将目标文件中的"(.*?)"替换为"(.*?)"$/) do |tag, value|
+  #定义一个DSL的执行环境
+  extend Docx::DSL
+  docx_cloner @source_filename, @dest_filename do
+    set_text tag, value
+  end
+end
+
+当(/^程序使用DSL，将表中第1行作为标签名，第2行以后作为行数据替换$/) do
+  #定义一个DSL的执行环境
+  extend Docx::DSL
+  docx_cloner @source_filename, @dest_filename do
+    set_row 'tr' do |t|
+      t[:tags] = @data.first
+      t[:data] = @data[1..-1]
+    end
+  end
 end

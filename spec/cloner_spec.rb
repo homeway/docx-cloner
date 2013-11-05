@@ -10,18 +10,18 @@ module Docx
         end
         context "#include_single_tag?" do
           it "读取'$名字$'标签" do
-            result = @docx.include_single_tag? "$名字$"
+            result = @docx.include_text_tag? "$名字$"
             result.should be_true
           end
           it "读取'{Name}'标签" do
-            result = @docx.include_single_tag? "{Name}"
+            result = @docx.include_text_tag? "{Name}"
             result.should be_true
           end
         end
 
         context "#read_single_tags_xml" do
           it "读取'{name}'的xml标签'<w:r>'，应该是" do
-            result = @docx.read_single_tag_xml "{name}"
+            result = @docx.read_text_tag_xml "{name}"
             result.should  == <<-HERE
 <w:r w:rsidR="000F595B">
   <w:rPr>
@@ -65,11 +65,11 @@ module Docx
         context "#set_single_tag" do
           it "设置单个标签{Name}" do
             value = '周大福'
-            @source_docx.set_single_tag '{Name}', value
+            @source_docx.set_text_tag '{Name}', value
             @source_docx.save @dest_file
 
             dest = DocxTool.new @dest_file
-            result = dest.include_single_tag? value
+            result = dest.include_text_tag? value
             dest.release
             result.should be_true
           end

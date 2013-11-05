@@ -40,7 +40,7 @@ module Docx
       end
 
       
-      def include_single_tag?(tag)
+      def include_text_tag?(tag)
         @global_paragraph.each do |p|
           if p[:text_content].include? tag
             return true
@@ -49,7 +49,7 @@ module Docx
         return false
       end
 
-      def read_single_tag_xml(tag)
+      def read_text_tag_xml(tag)
         @global_paragraph.each do |p|
           if p[:text_content].include? tag
             from = p[:text_content].index tag
@@ -75,7 +75,7 @@ module Docx
       end
 
       #替换单个标签为指定值
-      def set_single_tag tag, value
+      def set_text_tag tag, value
         replace_tag tag, value
       end
 

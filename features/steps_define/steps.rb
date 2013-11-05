@@ -110,6 +110,7 @@ end
   #定义一个DSL的执行环境
   extend Docx::DSL
   docx_cloner @source_filename, @dest_filename do
-    set_row  @data.first, @data[1..-1], 'tr'
+    #set_row  @data.first, @data[1..-1], 'tr'
+    set_row_tr @data.first, @data[1..-1]
   end
 end
